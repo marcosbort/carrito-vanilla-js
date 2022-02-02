@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="favicon/x-con" href="https://marcosbort.github.io/favicon-mb/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Carrito</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Carrito</h1>
+        <hr>
+        
+        <!-- Cards -->
+        <h4>Productos</h4>
+        <div class="row" id="cards"></div>
+        <br>
+
+        <!-- Carrito (tablas) -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Acción</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+            <tbody id="items"></tbody>
+            <tfoot>
+                <tr id="footer">
+                    <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                </tr>
+            </tfoot>
+        </table>
+
+    </div>
+
+
+    <!-- TEMPLATES (los usamos con fragment, para evitar el Reflow) -->
+
+    <template id="template-card">
+        <div class="col-12 p-2 col-md-3">
+            <div class="template-card__card card">
+                <img src="" alt="imagen" class="template-card__img card-img-top">
+                <div class="template-card__body p-3">
+                    <h5 class="template-card__title">Titulo</h5>
+                    <p class="template-card__price">precio</p>
+                    <button class="template-card__btn-buy btn btn-dark">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!---------------------------------------------------------------------->
+        
+    <template id="template-carrito">
+        <tr>
+            <th class="template-carrito__id" scope="row">id</th>
+            <td class="template-carrito__title">Café</td>
+            <td class="template-carrito__units">1</td>
+            <td>
+                <button class="template-carrito__btn-add btn btn-info btn-sm">
+                    +
+                </button>
+                <button class="template-carrito__btn-subtract btn btn-danger btn-sm">
+                    -
+                </button>
+            </td>
+            <td>$ <span class="template-carrito__multiply">500</span></td>
+        </tr>
+    </template>
+
+    <!---------------------------------------------------------------------->
+
+    <template id="template-footer">
+        <th class="template-footer__total-title" scope="row" colspan="2">Total productos</th>
+        <td class="template-footer__total-units">10</td>
+        <td>
+            <button class="template-footer__btn-empty btn btn-danger btn-sm" id="vaciar-carrito">
+                vaciar todo
+            </button>
+        </td>
+        <td class="font-weight-bold">$ <span class="template-footer__total-price">5000</span></td>
+    </template>
+    
+    <!---------------------------------------------------------------------->
+    <script src="app.js"></script>
+</body>
+</html>
