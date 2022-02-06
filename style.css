@@ -54,14 +54,9 @@ body {
     color: #d03455;
 }
 
-.title-web-line {
-    margin: -8px 0px 5px 0px;
-    background-color: #3f4a81;
-}
-
 .title {
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 10px;
+    margin-top: -10px;
     font-size: 18px;
     color: #d03455;
 }
@@ -188,6 +183,10 @@ Footer
     color: #8a8a8a;
 }
 
+.vaciar-carrito {
+    width: 15px;
+    margin-left: 5px;
+}
 
 /*------------------------------------------------------------------------------------\
 	Responsive
