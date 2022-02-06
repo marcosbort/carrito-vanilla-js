@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;600&family=Roboto:wght@300;400&display=swap');
+
+
+
+/*-------------------------------------\
+General
+\-------------------------------------*/
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* font-family: 'Bebas Neue', cursive; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background-color: #dddddd !important; */
+    background-color: #f1f1f1 !important;
+}
+
+
+/*-------------------------------------\
+	Titles
+\-------------------------------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-web-1 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 4px;
+    color: #3f4a81;
+}
+
+.title-web-2 {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    /* margin-top: 8px; */
+    padding-top: 8px;
+    color: #d03455;
+}
+
+.title-web-line {
+    margin: -8px 0px 5px 0px;
+    background-color: #3f4a81;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    color: #000000;
+    color: #d03455;
+}
+
+
+/*-------------------------------------\
+	Cards Container
+\-------------------------------------*/
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px 18px;
+    margin-bottom: 8px;
+}
+
+
+/*-------------------------------------\
+	Cards
+\-------------------------------------*/
+.template-card__card {
+    overflow: hidden !important;
+    width: 140px;
+    background-color: white;
+    /* border: 1px solid #c5c5c5 !important; */
+    border-radius: 6px !important;
+    box-shadow: 2px 2px 15px #a1a1a1a8;
+    font-family: 'Oswald', sans-serif;
+}
+
+.template-card__card:hover {
+    box-shadow: 2px 2px 15px rgba(112, 112, 112, 0.7);
+}
+
+.template-card__img {
+    width: 180px !important;
+    transform: translate(-20px);
+}
+
+.template-card__body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 12px;
+}
+
+.template-card__title {
+    font-size: 20px;
+    margin-top: -6px;
+    color: #3f4a81;
+}
+
+.template-card__symbol {
+    font-size: 16px;
+    color: #646464;
+    margin-bottom: 10px;
+}
+
+.template-card__btn-buy {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    cursor: pointer;
+    background-color: #13161a;
+    color: #dddddd;
+    font-size: 12px;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.template-card__btn-buy:hover {
+    background-color: #182638;
+    background-color: rgb(40, 49, 59);
+    box-shadow: 1px 1px 3px #0b113180;
+}
+
+
+/*-------------------------------------\
+Carrito
+\-------------------------------------*/
+.table > :not(caption) > * > * {
+    padding: 4px !important;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carrito-table {
+    color: #101d30;;
+    background-color: rgb(255, 255, 255);
+}
+
+.table-tr {
+    color: rgb(83, 83, 83);
+}
+
+
+/*-------------------------------------\
+	Botones
+\-------------------------------------*/
+.template-carrito__btn-add {
+    background-color: #3f4a81 !important;
+    color: white !important;
+}
+
+.template-carrito__btn-subtract {
+    background-color: #d03455 !important;
+}
+
+
+/*-------------------------------------\
+Footer
+\-------------------------------------*/
+.template-footer__btn-empty {
+    background-color: #d03455 !important;
+
+}
+
+.title-by {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    /* padding-top: 10px; */
+    /* padding-top: 24px; */
+    color: #8a8a8a;
+}
+
+
+/*------------------------------------------------------------------------------------\
+	Responsive
+\------------------------------------------------------------------------------------*/
+@media (max-width: 991px) {
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: space-evenly;
+    }
+}

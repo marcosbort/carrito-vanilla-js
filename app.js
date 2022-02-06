@@ -119,8 +119,9 @@ const printCarrito = () => {
         
         // este product no viene de json. Es el que empujamos con setCarrito()
         templateCarrito.querySelector(".template-carrito__id").textContent = product.id
-        templateCarrito.querySelector(".template-carrito__units").textContent = product.units
         templateCarrito.querySelector(".template-carrito__title").textContent = product.title
+        templateCarrito.querySelector(".template-carrito__units").textContent = product.units
+        templateCarrito.querySelector(".template-carrito__price").textContent = product.price
         templateCarrito.querySelector(".template-carrito__multiply").textContent = product.units * product.price
         
         // agregamos el id a los botones
