@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;600&family=Roboto:wght@300;400&display=swap');
 
-
-
 /*-------------------------------------\
 General
 \-------------------------------------*/
@@ -23,7 +21,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* background-color: #dddddd !important; */
     background-color: #f1f1f1 !important;
 }
 
@@ -38,15 +35,21 @@ body {
 
 .title-web-1 {
     font-family: 'Oswald', sans-serif;
-    margin-top: 4px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Bebas Neue', cursive;
+    /* margin-top: 4px; */
+    padding-top: 8px;
     color: #3f4a81;
+}
+
+.carrito-img {
+    margin-left: 4px;
+    width: 30px;
 }
 
 .title-web-2 {
     display: block;
-    font-family: 'Oswald', sans-serif;
     font-family: 'Bebas Neue', cursive;
-    /* margin-top: 8px; */
     padding-top: 8px;
     color: #d03455;
 }
@@ -57,9 +60,9 @@ body {
 }
 
 .title {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
-    color: #000000;
+    font-size: 18px;
     color: #d03455;
 }
 
@@ -83,10 +86,10 @@ body {
     overflow: hidden !important;
     width: 140px;
     background-color: white;
-    /* border: 1px solid #c5c5c5 !important; */
     border-radius: 6px !important;
     box-shadow: 2px 2px 15px #a1a1a1a8;
     font-family: 'Oswald', sans-serif;
+    
 }
 
 .template-card__card:hover {
