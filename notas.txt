@@ -1,2 +1,0 @@
-Guía del curso
-https://bluuweb.github.io/javascript/02-dom/#practica-template
