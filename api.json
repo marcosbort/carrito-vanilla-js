@@ -3,49 +3,49 @@
 		"precio": 1000,
 		"id": 1,
 		"title": "iPhone 12",
-		"thumbnailUrl": "https://nissei.com/media/catalog/product/cache/16a9529cefd63504739dab4fc3414065/1/1/11_negrooo_9.jpg"
+		"thumbnailUrl": "./external-server/img/iphone-12.jpg"
     },
     {
 		"precio": 900,
 		"id": 2,
 		"title": "Notebook 14X",
-		"thumbnailUrl": "https://falabella.scene7.com/is/image/Falabella/15229154_1?wid=800&hei=800&qlt=70"
+		"thumbnailUrl": "./external-server/img/notebook-14x.jpg"
     },
     {
 		"precio": 180,
 		"id": 3,
 		"title": "Parlante JBL",
-		"thumbnailUrl": "https://stylewatch.vtexassets.com/arquivos/ids/191159/PARLANTE_JBL_CHARGE4_JBLCHARGE4BLK_01.jpg"
+		"thumbnailUrl": "./external-server/img/parlante-jbl.jpg"
     },
     {
 		"precio": 500,
 		"id": 4,
 		"title": "iWatch",
-		"thumbnailUrl": "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/M/E/182515_1610706208.jpg"
+		"thumbnailUrl": "./external-server/img/iwatch-2.jpg"
     },
     {
 		"precio": 45,
 		"id": 5,
 		"title": "Diso Externo",
-		"thumbnailUrl": "http://d3ugyf2ht6aenh.cloudfront.net/stores/796/529/products/st-tcdem-11-c9b6c2ee9e9efc9cf515761675810729-640-0.jpg"
+		"thumbnailUrl": "./external-server/img/disco-externo.jpg"
     },
     {
 		"precio": 20,
 		"id": 6,
 		"title": "Pendrive",
-		"thumbnailUrl": "https://www.soscomputacion.com.ar/16688/pen-drive-128gb-kingston-usb-30-datatraveler-100.jpg"
+		"thumbnailUrl": "./external-server/img/pendrive.jpg"
     },
     {
         "precio": 180,
         "id": 7,
         "title": "Monitor",
-        "thumbnailUrl": "https://www.lg.com/ec/images/monitores/md07543441/thumbnail/350-v1.jpg"
+        "thumbnailUrl": "./external-server/img/monitor.jpg"
 	},
 	{
         "precio": 450,
         "id": 8,
         "title": "PC Gamer",
-        "thumbnailUrl": "https://www.soscomputacion.com.ar/17385-thickbox_default/gabinete-pc-gamer-sentey-x10-rgb-acrilico-gaming-usb-30-sin-fuente.jpg"
+        "thumbnailUrl": "./external-server/img/pc-gamer.jpg"
 	}
 ]
   

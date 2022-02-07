@@ -14,7 +14,7 @@
     <div class="container">
 
         <div class="header">
-            <h1 class="title-web-1">Carrito <img src="./carrito.svg" alt="carrio" class="carrito-img"></h1>
+            <h1 class="title-web-1">Carrito <img src="./external-server/img/carrito.svg" alt="carrio" class="carrito-img"></h1>
             <h1 class="title-web-2">TECH E-Commerce</h1>
         </div>
         
@@ -70,7 +70,8 @@
             <th class="template-carrito__id" scope="row">id</th>
             <td class="template-carrito__title">Café</td>
             <td class="template-carrito__units">1</td>
-            <td class="template-carrito__price">1</td>
+            <!-- <td class="template-carrito__price">1</td> -->
+            <td>$ <span class="template-carrito__price">1</span></td>
             <td>
                 <button class="template-carrito__btn-add btn btn-info btn-sm">
                     +
@@ -89,12 +90,13 @@
         <th class="template-footer__total-title" scope="row" colspan="2">Total productos</th>
         <td class="template-footer__total-units">10</td>
         <td class="template-footer__price"></td>
-        <td>
+        <td class="template-footer__btn">
             <button class="template-footer__btn-empty btn btn-danger btn-sm" id="vaciar-carrito">
-                vaciar <img class="vaciar-carrito" src="./carrito.svg" alt="carrito">
+                <!-- vaciar <img class="vaciar-carrito" src="./external-server/img/carrito.svg" alt="carrito"> -->
+                vaciar
             </button>
         </td>
-        <td class="font-weight-bold">$ <span class="template-footer__total-price">5000</span></td>
+        <td class="font-weight-bold" >$ <span class="template-footer__total-price">5000</span></td>
     </template>
     
     <!---------------------------------------------------------------------->

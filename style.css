@@ -129,14 +129,13 @@ body {
 }
 
 .template-card__btn-buy:hover {
-    background-color: #182638;
-    background-color: rgb(40, 49, 59);
-    box-shadow: 1px 1px 3px #0b113180;
+    background-color: #3f4a81;;
+    /* box-shadow: 3px 3px 8px #0b113180; */
 }
 
 
 /*-------------------------------------\
-Carrito
+    Carrito
 \-------------------------------------*/
 .table > :not(caption) > * > * {
     padding: 4px !important;
