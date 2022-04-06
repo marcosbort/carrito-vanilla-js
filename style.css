@@ -4,24 +4,24 @@
 General
 \-------------------------------------*/
 html {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    /* font-family: 'Bebas Neue', cursive; */
-    /* font-family: 'Oswald', sans-serif; */
-    /* font-family: 'Roboto', sans-serif; */
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* font-family: 'Bebas Neue', cursive; */
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background-color: #f1f1f1 !important;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #f1f1f1 !important;
 }
 
 
@@ -29,36 +29,36 @@ body {
 	Titles
 \-------------------------------------*/
 .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title-web-1 {
-    font-family: 'Oswald', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Bebas Neue', cursive;
-    /* margin-top: 4px; */
-    padding-top: 8px;
-    color: #3f4a81;
+  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Bebas Neue', cursive;
+  /* margin-top: 4px; */
+  padding-top: 8px;
+  color: #3f4a81;
 }
 
 .carrito-img {
-    margin-left: 4px;
-    width: 30px;
+  margin-left: 4px;
+  width: 30px;
 }
 
 .title-web-2 {
-    display: block;
-    font-family: 'Bebas Neue', cursive;
-    padding-top: 8px;
-    color: #d03455;
+  display: block;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 8px;
+  color: #d03455;
 }
 
 .title {
-    font-family: 'Roboto', sans-serif;
-    margin-top: -10px;
-    font-size: 18px;
-    color: #d03455;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -10px;
+  font-size: 18px;
+  color: #d03455;
 }
 
 
@@ -66,11 +66,11 @@ body {
 	Cards Container
 \-------------------------------------*/
 .cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 18px 18px;
-    margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px 18px;
+  margin-bottom: 8px;
 }
 
 
@@ -78,78 +78,80 @@ body {
 	Cards
 \-------------------------------------*/
 .template-card__card {
-    overflow: hidden !important;
-    width: 140px;
-    background-color: white;
-    border-radius: 6px !important;
-    box-shadow: 2px 2px 15px #a1a1a1a8;
-    font-family: 'Oswald', sans-serif;
-    
+  overflow: hidden !important;
+  width: 140px;
+  background-color: white;
+  border-radius: 6px !important;
+  box-shadow: 2px 2px 15px #a1a1a1a8;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .template-card__card:hover {
-    box-shadow: 2px 2px 15px rgba(112, 112, 112, 0.7);
+  box-shadow: 2px 2px 15px rgba(112, 112, 112, 0.7);
 }
 
 .template-card__img {
-    width: 180px !important;
-    transform: translate(-20px);
+  width: 180px !important;
+  transform: translate(-20px);
 }
 
 .template-card__body {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 12px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 12px;
 }
 
 .template-card__title {
-    font-size: 20px;
-    margin-top: -6px;
-    color: #3f4a81;
+  font-size: 20px;
+  margin-top: -6px;
+  color: #3f4a81;
 }
 
 .template-card__symbol {
-    font-size: 16px;
-    color: #646464;
-    margin-bottom: 10px;
+  font-size: 16px;
+  color: #646464;
+  margin-bottom: 10px;
 }
 
 .template-card__btn-buy {
-    font-family: 'Roboto', sans-serif;
-    display: block;
-    cursor: pointer;
-    background-color: #13161a;
-    color: #dddddd;
-    font-size: 12px;
-    padding: 2px;
-    border-radius: 5px;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  cursor: pointer;
+  background-color: #13161a;
+  color: #dddddd;
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .template-card__btn-buy:hover {
-    background-color: #3f4a81;;
-    /* box-shadow: 3px 3px 8px #0b113180; */
+  background-color: #3f4a81;
+  ;
+  /* box-shadow: 3px 3px 8px #0b113180; */
 }
 
 
 /*-------------------------------------\
     Carrito
 \-------------------------------------*/
-.table > :not(caption) > * > * {
-    padding: 4px !important;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+.table> :not(caption)>*>* {
+  padding: 4px !important;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .carrito-table {
-    color: #101d30;;
-    background-color: rgb(255, 255, 255);
+  color: #101d30;
+  ;
+  background-color: rgb(255, 255, 255);
 }
 
 .table-tr {
-    color: rgb(83, 83, 83);
+  color: rgb(83, 83, 83);
 }
 
 
@@ -157,12 +159,12 @@ body {
 	Botones
 \-------------------------------------*/
 .template-carrito__btn-add {
-    background-color: #3f4a81 !important;
-    color: white !important;
+  background-color: #3f4a81 !important;
+  color: white !important;
 }
 
 .template-carrito__btn-subtract {
-    background-color: #d03455 !important;
+  background-color: #d03455 !important;
 }
 
 
@@ -170,32 +172,32 @@ body {
 Footer
 \-------------------------------------*/
 .template-footer__btn-empty {
-    background-color: #d03455 !important;
+  background-color: #d03455 !important;
 
 }
 
 .title-by {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    /* padding-top: 10px; */
-    /* padding-top: 24px; */
-    color: #8a8a8a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  /* padding-top: 10px; */
+  /* padding-top: 24px; */
+  color: #8a8a8a;
 }
 
 .vaciar-carrito {
-    width: 15px;
-    margin-left: 5px;
+  width: 15px;
+  margin-left: 5px;
 }
 
 /*------------------------------------------------------------------------------------\
 	Responsive
 \------------------------------------------------------------------------------------*/
 @media (max-width: 991px) {
-    .cards {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 12px;
-        justify-content: space-evenly;
-    }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-evenly;
+  }
 }
