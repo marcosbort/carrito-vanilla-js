@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;600&family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;600&family=Roboto:wght@300;400&display=swap");
 
 /*-------------------------------------\
-General
+  General
 \-------------------------------------*/
 html {
   box-sizing: border-box;
@@ -24,9 +24,8 @@ body {
   background-color: #f1f1f1 !important;
 }
 
-
 /*-------------------------------------\
-	Titles
+  Titles
 \-------------------------------------*/
 .header {
   display: flex;
@@ -34,9 +33,9 @@ body {
 }
 
 .title-web-1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   /* margin-top: 4px; */
   padding-top: 8px;
   color: #3f4a81;
@@ -49,21 +48,20 @@ body {
 
 .title-web-2 {
   display: block;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   padding-top: 8px;
   color: #d03455;
 }
 
 .title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-top: -10px;
   font-size: 18px;
   color: #d03455;
 }
 
-
 /*-------------------------------------\
-	Cards Container
+  Cards Container
 \-------------------------------------*/
 .cards {
   display: flex;
@@ -73,9 +71,8 @@ body {
   margin-bottom: 8px;
 }
 
-
 /*-------------------------------------\
-	Cards
+  Cards
 \-------------------------------------*/
 .template-card__card {
   overflow: hidden !important;
@@ -83,8 +80,7 @@ body {
   background-color: white;
   border-radius: 6px !important;
   box-shadow: 2px 2px 15px #a1a1a1a8;
-  font-family: 'Oswald', sans-serif;
-
+  font-family: "Oswald", sans-serif;
 }
 
 .template-card__card:hover {
@@ -116,7 +112,7 @@ body {
 }
 
 .template-card__btn-buy {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: block;
   cursor: pointer;
   background-color: #13161a;
@@ -130,23 +126,20 @@ body {
 
 .template-card__btn-buy:hover {
   background-color: #3f4a81;
-  ;
   /* box-shadow: 3px 3px 8px #0b113180; */
 }
 
-
 /*-------------------------------------\
-    Carrito
+  Carrito
 \-------------------------------------*/
-.table> :not(caption)>*>* {
+.table > :not(caption) > * > * {
   padding: 4px !important;
   font-size: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .carrito-table {
   color: #101d30;
-  ;
   background-color: rgb(255, 255, 255);
 }
 
@@ -154,9 +147,8 @@ body {
   color: rgb(83, 83, 83);
 }
 
-
 /*-------------------------------------\
-	Botones
+  Botones
 \-------------------------------------*/
 .template-carrito__btn-add {
   background-color: #3f4a81 !important;
@@ -167,17 +159,15 @@ body {
   background-color: #d03455 !important;
 }
 
-
 /*-------------------------------------\
-Footer
+  Footer
 \-------------------------------------*/
 .template-footer__btn-empty {
   background-color: #d03455 !important;
-
 }
 
 .title-by {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   /* padding-top: 10px; */
   /* padding-top: 24px; */
@@ -190,7 +180,7 @@ Footer
 }
 
 /*------------------------------------------------------------------------------------\
-	Responsive
+  Responsive
 \------------------------------------------------------------------------------------*/
 @media (max-width: 991px) {
   .cards {
