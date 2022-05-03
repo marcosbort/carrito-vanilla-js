@@ -3,48 +3,48 @@
     "precio": 1000,
     "id": 1,
     "title": "iPhone 12",
-    "thumbnailUrl": "./external-server/img/iphone-12.jpg"
+    "thumbnailUrl": "./images/iphone-12.jpg"
   },
   {
     "precio": 900,
     "id": 2,
     "title": "Notebook 14X",
-    "thumbnailUrl": "./external-server/img/notebook-14x.jpg"
+    "thumbnailUrl": "./images/notebook-14x.jpg"
   },
   {
     "precio": 180,
     "id": 3,
     "title": "Parlante JBL",
-    "thumbnailUrl": "./external-server/img/parlante-jbl.jpg"
+    "thumbnailUrl": "./images/parlante-jbl.jpg"
   },
   {
     "precio": 500,
     "id": 4,
     "title": "iWatch",
-    "thumbnailUrl": "./external-server/img/iwatch-2.jpg"
+    "thumbnailUrl": "./images/iwatch-2.jpg"
   },
   {
     "precio": 45,
     "id": 5,
     "title": "Diso Externo",
-    "thumbnailUrl": "./external-server/img/disco-externo.jpg"
+    "thumbnailUrl": "./images/disco-externo.jpg"
   },
   {
     "precio": 20,
     "id": 6,
     "title": "Pendrive",
-    "thumbnailUrl": "./external-server/img/pendrive.jpg"
+    "thumbnailUrl": "./images/pendrive.jpg"
   },
   {
     "precio": 180,
     "id": 7,
     "title": "Monitor",
-    "thumbnailUrl": "./external-server/img/monitor.jpg"
+    "thumbnailUrl": "./images/monitor.jpg"
   },
   {
     "precio": 450,
     "id": 8,
     "title": "PC Gamer",
-    "thumbnailUrl": "./external-server/img/pc-gamer.jpg"
+    "thumbnailUrl": "./images/pc-gamer.jpg"
   }
 ]

@@ -6,9 +6,6 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* font-family: 'Bebas Neue', cursive; */
-  /* font-family: 'Oswald', sans-serif; */
-  /* font-family: 'Roboto', sans-serif; */
 }
 
 *,
@@ -148,7 +145,7 @@ body {
 }
 
 /*-------------------------------------\
-  Botones
+  Buttons
 \-------------------------------------*/
 .template-carrito__btn-add {
   background-color: #3f4a81 !important;
