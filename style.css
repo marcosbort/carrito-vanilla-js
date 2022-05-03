@@ -30,10 +30,7 @@ body {
 }
 
 .title-web-1 {
-  font-family: "Oswald", sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
   font-family: "Bebas Neue", cursive;
-  /* margin-top: 4px; */
   padding-top: 8px;
   color: #3f4a81;
 }
@@ -108,6 +105,9 @@ body {
   margin-bottom: 10px;
 }
 
+/*-------------------------------------\
+  Button Cards
+\-------------------------------------*/
 .template-card__btn-buy {
   font-family: "Roboto", sans-serif;
   display: block;
@@ -119,11 +119,16 @@ body {
   border-radius: 5px;
   text-align: center;
   text-transform: uppercase;
+  transition: 300ms transform;
 }
 
 .template-card__btn-buy:hover {
-  background-color: #3f4a81;
-  /* box-shadow: 3px 3px 8px #0b113180; */
+  background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+}
+
+.template-card__btn-buy:active {
+  background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  transform: scale(0.95);
 }
 
 /*-------------------------------------\
@@ -150,24 +155,37 @@ body {
 .template-carrito__btn-add {
   background-color: #3f4a81 !important;
   color: white !important;
+  transition: 300ms transform;
+}
+
+.template-carrito__btn-add:active {
+  transform: scale(0.95);
 }
 
 .template-carrito__btn-subtract {
   background-color: #d03455 !important;
+  transition: 300ms transform;
+}
+
+.template-carrito__btn-subtract:active {
+  transform: scale(0.95);
 }
 
 /*-------------------------------------\
-  Footer
+Footer
 \-------------------------------------*/
 .template-footer__btn-empty {
   background-color: #d03455 !important;
+  transition: 300ms transform;
+}
+
+.template-footer__btn-empty:active {
+  transform: scale(0.95);
 }
 
 .title-by {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  /* padding-top: 10px; */
-  /* padding-top: 24px; */
   color: #8a8a8a;
 }
 

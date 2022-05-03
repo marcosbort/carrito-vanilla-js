@@ -119,12 +119,10 @@ const printFooter = () => {
   }
 
   const nUnits = Object.values(carrito).reduce(
-    (acumulador, { units }) => acumulador + units,
-    0
+    (acumulador, { units }) => acumulador + units, 0
   )
   const nPrice = Object.values(carrito).reduce(
-    (accumulador, { units, price }) => accumulador + units * price,
-    0
+    (accumulador, { units, price }) => accumulador + units * price, 0
   )
 
   templateFooter.querySelector(".template-footer__total-units").textContent = nUnits
